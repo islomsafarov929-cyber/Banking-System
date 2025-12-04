@@ -1,0 +1,51 @@
+﻿CaseID,CustomerID,CaseType,Status, InvestigatorID 
+1,294,Fraud,Open, 130 
+2,281,Money Laundering,Closed, 140 
+3,137,Terrorism Financing,Closed, 173 
+4,508,Terrorism Financing,Under Investigation, 33 
+5,976,Fraud,Open, 159 
+6,444,Fraud,Closed, 72 
+7,514,Money Laundering,Closed, 167 
+8,309,Fraud,Closed, 81 
+9,562,Money Laundering,Closed, 105 
+10,211,Terrorism Financing,Open, 184 
+11,827,Money Laundering,Closed, 83 
+12,535,Money Laundering,Under Investigation, 198 
+13,730,Fraud,Open, 108 
+14,81,Terrorism Financing,Open, 110 
+15,123,Money Laundering,Closed, 88 
+16,933,Fraud,Open, 5 
+17,20,Terrorism Financing,Closed, 184 
+18,333,Money Laundering,Open, 96 
+19,187,Fraud,Open, 184 
+20,194,Fraud,Under Investigation, 120 
+21,923,Money Laundering,Closed, 108 
+22,91,Terrorism Financing,Closed, 72 
+23,186,Fraud,Under Investigation, 95 
+24,604,Fraud,Open, 56 
+25,273,Terrorism Financing,Under Investigation, 110 
+26,767,Terrorism Financing,Open, 85 
+27,691,Terrorism Financing,Under Investigation, 136 
+28,761,Money Laundering,Under Investigation, 50 
+29,824,Fraud,Closed, 197 
+30,254,Money Laundering,Open, 144 
+31,29,Money Laundering,Under Investigation, 163 
+32,392,Fraud,Under Investigation, 38 
+33,84,Money Laundering,Closed, 195 
+34,916,Money Laundering,Open, 165 
+35,183,Terrorism Financing,Open, 106 
+36,274,Money Laundering,Closed, 175 
+37,65,Fraud,Closed, 49 
+38,783,Money Laundering,Open, 93 
+39,152,Terrorism Financing,Open, 172 
+40,413,Money Laundering,Open, 165 
+41,651,Terrorism Financing,Closed, 96 
+42,446,Terrorism Financing,Under Investigation, 77 
+43,649,Fraud,Open, 160 
+44,154,Fraud,Closed, 21 
+45,395,Money Laundering,Open, 176 
+46,507,Terrorism Financing,Open, 83 
+47,925,Fraud,Closed, 101 
+48,2,Terrorism Financing,Under Investigation, 17 
+49,249,Fraud,Under Investigation, 160 
+50,710,Fraud,Closed, 19 

@@ -1,0 +1,323 @@
+===============================================================
+TABLE: RegulatoryReports
+ROWS: 50
+COLUMNS:
+- ReportID : Row Number
+- ReportType : Custom List [Quarterly, Annual, Compliance]
+- SubmissionDate : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: CyberSecurityIncidents
+ROWS: 50
+COLUMNS:
+- IncidentID : Row Number
+- AffectedSystem : Custom List [Server, Network, Database, WebApp]
+- ReportedDate : Date (2020-01-01 to 2025-12-31)
+- ResolutionStatus : Custom List [Resolved, Pending, Escalated]
+
+===============================================================
+TABLE: Customers
+ROWS: 1000
+COLUMNS:
+- CustomerID : Row Number
+- FullName : Full Name
+- DOB : Date (1950-01-01 to 2005-12-31)
+- Email : Email Address
+- PhoneNumber : Phone Number
+- Address : Street Address
+- NationalID : Regex [A-Z0-9]{10}
+- TaxID : Regex [0-9]{10}
+- EmploymentStatus : Custom List [Employed, Unemployed, Student, Retired]
+- AnnualIncome : Number (1000 to 200000)
+- CreatedAt : Date (2020-01-01 to 2025-12-31)
+- UpdatedAt : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: Merchants
+ROWS: 100
+COLUMNS:
+- MerchantID : Row Number
+- MerchantName : Company Name
+- Industry : Custom List [Retail, Food, Technology, Services]
+- Location : City
+- CustomerID : Formula choose([1..1000])
+
+===============================================================
+TABLE: Departments
+ROWS: 10
+COLUMNS:
+- DepartmentID : Row Number
+- DepartmentName : Custom List [HR, Finance, IT, Operations, Marketing]
+- ManagerID : Formula choose([1..200])
+
+===============================================================
+TABLE: Employees
+ROWS: 200
+COLUMNS:
+- EmployeeID : Row Number
+- BranchID : Formula choose([1..20])
+- FullName : Full Name
+- Position : Custom List [Manager, Clerk, Analyst, Assistant]
+- DepartmentID : Formula choose([1..10])
+- Salary : Number (2000 to 15000)
+- HireDate : Date (2010-01-01 to 2025-12-31)
+- Status : Custom List [Active, Inactive]
+
+===============================================================
+TABLE: Branches
+ROWS: 20
+COLUMNS:
+- BranchID : Row Number
+- BranchName : City
+- Address : Street Address
+- City : City
+- State : State
+- Country : Country
+- ManagerID : Formula choose([1..200])
+- ContactNumber : Phone Number
+
+===============================================================
+TABLE: Accounts
+ROWS: 1000
+COLUMNS:
+- AccountID : Row Number
+- CustomerID : Formula choose([1..1000])
+- AccountType : Custom List [Savings, Checking, Business]
+- Balance : Number (0 to 100000)
+- Currency : Custom List [USD, EUR, GBP]
+- Status : Custom List [Active, Closed, Suspended]
+- BranchID : Formula choose([1..20])
+- CreatedDate : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: CreditScores
+ROWS: 1000
+COLUMNS:
+- CustomerID : Formula choose([1..1000])
+- CreditScore : Number (300 to 850)
+- UpdatedAt : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: MobileBankingTransactions
+ROWS: 1000
+COLUMNS:
+- MobileTransID : Row Number
+- CustomerID : Formula choose([1..1000])
+- DeviceID : Random Alphanumeric [8]
+- AppVersion : Custom List [1.0, 1.1, 1.2, 2.0]
+- TransactionType : Custom List [Transfer, Payment, Deposit]
+- Amount : Number (1 to 5000)
+- Date : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: OnlineBankingUsers
+ROWS: 1000
+COLUMNS:
+- UserID : Row Number
+- CustomerID : Formula choose([1..1000])
+- Username : Username
+- PasswordHash : Random Alphanumeric [64]
+- LastLogin : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: InsurancePolicies
+ROWS: 500
+COLUMNS:
+- PolicyID : Row Number
+- CustomerID : Formula choose([1..1000])
+- InsuranceType : Custom List [Life, Health, Auto, Home]
+- PremiumAmount : Number (100 to 5000)
+- CoverageAmount : Number (1000 to 100000)
+
+===============================================================
+TABLE: KYC
+ROWS: 500
+COLUMNS:
+- KYCID : Row Number
+- CustomerID : Formula choose([1..1000])
+- DocumentType : Custom List [Passport, ID Card, Driver License]
+- DocumentNumber : Regex [A-Z0-9]{10}
+- VerifiedBy : Full Name
+
+===============================================================
+TABLE: Loans
+ROWS: 500
+COLUMNS:
+- LoanID : Row Number
+- CustomerID : Formula choose([1..1000])
+- LoanType : Custom List [Mortgage, Personal, Auto, Business]
+- Amount : Number (5000 to 100000)
+- InterestRate : Number (0.01 to 0.25)
+- StartDate : Date (2018-01-01 to 2025-12-31)
+- EndDate : Date (2020-01-01 to 2030-12-31)
+- Status : Custom List [Active, Paid, Defaulted]
+
+===============================================================
+TABLE: BillPayments
+ROWS: 1000
+COLUMNS:
+- PaymentID : Row Number
+- CustomerID : Formula choose([1..1000])
+- BillerName : Company Name
+- Amount : Number (10 to 5000)
+- Date : Date (2020-01-01 to 2025-12-31)
+- Status : Custom List [Completed, Pending, Failed]
+
+===============================================================
+TABLE: DebtCollection
+ROWS: 200
+COLUMNS:
+- DebtID : Row Number
+- CustomerID : Formula choose([1..1000])
+- AmountDue : Number (100 to 20000)
+- DueDate : Date (2020-01-01 to 2025-12-31)
+- CollectorAssigned : Full Name
+
+===============================================================
+TABLE: ForeignExchange
+ROWS: 300
+COLUMNS:
+- FXID : Row Number
+- CustomerID : Formula choose([1..1000])
+- CurrencyPair : Custom List [USD/EUR, USD/GBP, EUR/GBP]
+- ExchangeRate : Number (0.5 to 1.5)
+- AmountExchanged : Number (100 to 10000)
+
+===============================================================
+TABLE: StockTradingAccounts
+ROWS: 500
+COLUMNS:
+- TradingAccountID : Row Number
+- CustomerID : Formula choose([1..1000])
+- BrokerageFirm : Company Name
+- TotalInvested : Number (1000 to 50000)
+- CurrentValue : Number (1000 to 60000)
+
+===============================================================
+TABLE: Investments
+ROWS: 500
+COLUMNS:
+- InvestmentID : Row Number
+- CustomerID : Formula choose([1..1000])
+- InvestmentType : Custom List [Stocks, Bonds, Mutual Funds]
+- Amount : Number (500 to 50000)
+- ROI : Number (0.01 to 0.2)
+- MaturityDate : Date (2021-01-01 to 2030-12-31)
+
+===============================================================
+TABLE: Transactions
+ROWS: 1000
+COLUMNS:
+- TransactionID : Row Number
+- AccountID : Formula choose([1..1000])
+- TransactionType : Custom List [Deposit, Withdrawal, Transfer, Payment]
+- Amount : Number (1 to 10000)
+- Currency : Custom List [USD, EUR, GBP]
+- Date : Date (2020-01-01 to 2025-12-31)
+- Status : Custom List [Completed, Pending, Failed]
+- ReferenceNo : Regex [A-Z0-9]{10}
+
+===============================================================
+TABLE: CreditCards
+ROWS: 500
+COLUMNS:
+- CardID : Row Number
+- CustomerID : Formula choose([1..1000])
+- CardNumber : Regex [0-9]{16}
+- CardType : Custom List [Visa, MasterCard, Amex]
+- CVV : Regex [0-9]{3}
+- ExpiryDate : Date (2023-01-01 to 2030-12-31)
+- Limit : Number (1000 to 50000)
+- Status : Custom List [Active, Blocked, Closed]
+
+===============================================================
+TABLE: LoanPayments
+ROWS: 500
+COLUMNS:
+- PaymentID : Row Number
+- LoanID : Formula choose([1..500])
+- AmountPaid : Number (100 to 5000)
+- PaymentDate : Date (2020-01-01 to 2025-12-31)
+- RemainingBalance : Number (0 to 50000)
+
+===============================================================
+TABLE: FraudDetection
+ROWS: 200
+COLUMNS:
+- FraudID : Row Number
+- CustomerID : Formula choose([1..1000])
+- TransactionID : Formula choose([1..1000])
+- RiskLevel : Custom List [Low, Medium, High]
+- ReportedDate : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: Claims
+ROWS: 200
+COLUMNS:
+- ClaimID : Row Number
+- PolicyID : Formula choose([1..500])
+- ClaimAmount : Number (100 to 50000)
+- Status : Custom List [Approved, Rejected, Pending]
+- FiledDate : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: MerchantTransactions
+ROWS: 500
+COLUMNS:
+- MerchantTransID : Row Number
+- MerchantID : Formula choose([1..100])
+- Amount : Number (10 to 10000)
+- PaymentMethod : Custom List [Cash, CreditCard, MobilePay]
+- Date : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: CreditCardTransactions
+ROWS: 500
+COLUMNS:
+- CardTransID : Row Number
+- CardID : Formula choose([1..500])
+- Merchant : Company Name
+- Amount : Number (10 to 10000)
+- Currency : Custom List [USD, EUR, GBP]
+- Date : Date (2020-01-01 to 2025-12-31)
+- Status : Custom List [Completed, Pending, Failed]
+
+===============================================================
+TABLE: EmployeeAttendance
+ROWS: 500
+COLUMNS:
+- AttendanceID : Row Number
+- EmployeeID : Formula choose([1..200])
+- CheckInTime : DateTime (2020-01-01 to 2025-12-31)
+- CheckOutTime : DateTime (2020-01-01 to 2025-12-31)
+- TotalHours : Number (4.0 to 12.0)
+
+===============================================================
+TABLE: Salaries
+ROWS: 200
+COLUMNS:
+- SalaryID : Row Number
+- EmployeeID : Formula choose([1..200])
+- BaseSalary : Number (2000 to 15000)
+- Bonus : Number (0 to 5000)
+- Deductions : Number (0 to 2000)
+- PaymentDate : Date (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: UserAccessLogs
+ROWS: 500
+COLUMNS:
+- LogID : Row Number
+- UserID : Formula choose([1..1000])
+- ActionType : Custom List [Login, Logout, PasswordChange, FailedLogin]
+- Timestamp : DateTime (2020-01-01 to 2025-12-31)
+
+===============================================================
+TABLE: AMLCases
+ROWS: 50
+COLUMNS:
+- CaseID : Row Number
+- CustomerID : Formula choose([1..1000])
+- CaseType : Custom List [Money Laundering, Fraud, Terrorism Financing]
+- Status : Custom List [Open, Closed, Under Investigation]
+- InvestigatorID : Formula choose([1..200])

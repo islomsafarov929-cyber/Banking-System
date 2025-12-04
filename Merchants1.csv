@@ -1,0 +1,201 @@
+﻿MerchantID,MerchantName,Industry,Location,CustomerID
+1,Realcube,Technology,Guogan,345
+2,Meejo,Technology,Caldas Novas,694
+3,Talane,Services,Propriá,939
+4,Zoombox,Retail,Falënki,212
+5,Tanoodle,Services,Hongtian,216
+6,Gabspot,Retail,Ar Rumaythīyah,232
+7,Yakidoo,Services,Almere Haven,308
+8,Youfeed,Food,Amboanjo,788
+9,Chatterpoint,Services,Silute,266
+10,Voonte,Technology,Isnā,788
+11,Mybuzz,Services,Zimovniki,735
+12,Jetpulse,Technology,Odzi,898
+13,Linkbuzz,Food,Novokuybyshevsk,615
+14,Devpoint,Food,Bích Động,475
+15,Twimbo,Food,Guataquí,883
+16,Thoughtbeat,Food,Klyuchevsk,336
+17,Yodo,Food,Olovyannaya,516
+18,Oyoloo,Services,Lechinkay,488
+19,Centimia,Retail,Lyon,137
+20,Photolist,Retail,Ramón Castilla,824
+21,Ailane,Technology,Sigou,354
+22,Twitterworks,Retail,Lékhaio,904
+23,Centimia,Technology,Camiling,796
+24,Realbridge,Services,Munduk,413
+25,Brightbean,Services,Los Andes,276
+26,Jaxspan,Retail,Mahdishahr,139
+27,Mycat,Retail,Nōgata,349
+28,Vimbo,Retail,Pustomyty,121
+29,Thoughtbeat,Technology,Kasba Tadla,315
+30,Zoonder,Retail,Czchów,665
+31,Browsedrive,Services,Mjamaoué,446
+32,Avamm,Retail,Novo Hamburgo,733
+33,Npath,Services,Skhira,913
+34,Pixoboo,Food,Sancti Spíritus,622
+35,Yozio,Services,Washington,727
+36,Quimm,Services,Shijiazhuang,394
+37,InnoZ,Food,Fenchen,207
+38,Kwinu,Services,Gandara,111
+39,Jetwire,Food,Haiyanmiao,330
+40,Feedspan,Food,Entradas,824
+41,Realmix,Retail,Barbaza,180
+42,Feedfire,Retail,Xiqi,795
+43,Yabox,Services,Rathnew,417
+44,Zoozzy,Food,Qumudi,334
+45,Miboo,Food,Datun,949
+46,Dabvine,Food,Brusyanka,245
+47,Kimia,Retail,Lens,472
+48,Voolith,Retail,Lazarevac,49
+49,Skipfire,Services,Wenxian Chengguanzhen,888
+50,Avaveo,Services,Libode,454
+51,Zooxo,Services,Wuhu,764
+52,Dablist,Services,Seattle,959
+53,Shuffledrive,Services,Xingguo,404
+54,Vitz,Food,Yanqian,611
+55,Abatz,Technology,Shilaoren,432
+56,Yoveo,Retail,Balakhta,457
+57,Zooveo,Food,Chaykovskaya,523
+58,Shuffletag,Retail,Shuitianzhuang,958
+59,Tagopia,Food,Puerto Padre,350
+60,Dynabox,Retail,Spas-Zaulok,20
+61,Trudeo,Services,Nanying,105
+62,Yombu,Technology,Katori-shi,80
+63,Livetube,Retail,Köln,749
+64,Photojam,Technology,Shahrak-e Bākharz,703
+65,Rooxo,Food,Lücheng,88
+66,Quimba,Technology,Lagnieu,405
+67,Avamm,Technology,Casais Brancos,967
+68,Yakitri,Technology,Santa Cruz,125
+69,Voomm,Services,Phimai,657
+70,Oyoloo,Services,Saint-Gratien,842
+71,Geba,Services,Banjar Wates Tengah,746
+72,Tagpad,Services,Tuam,528
+73,Linkbridge,Technology,Матејче,284
+74,Ntags,Food,Anjiang,249
+75,Lazz,Retail,Jinqiao,924
+76,Jayo,Services,Shalazhi,246
+77,Skippad,Food,Al Maḩallah al Kubrá,178
+78,Feedfire,Technology,Poja Nae,437
+79,Eidel,Food,Shumikha,293
+80,Tagtune,Services,Sari,442
+81,Kanoodle,Retail,Indaial,196
+82,Jaxspan,Technology,Wintzenheim,998
+83,Kazu,Retail,Novopokrovskaya,627
+84,Flipbug,Technology,Makueni,446
+85,Skidoo,Technology,Freiria,125
+86,Geba,Services,Heilbronn,881
+87,Thoughtmix,Retail,Atlanta,784
+88,Voolia,Retail,Zhonglong,783
+89,Roomm,Food,Puerto Madryn,457
+90,Skidoo,Food,Lófos,604
+91,Quatz,Retail,Cerrillos,950
+92,Realmix,Services,Springbok,296
+93,Yotz,Food,Zongga,284
+94,Tazz,Technology,Yeniköy,459
+95,Yacero,Technology,Inuotose,604
+96,Latz,Services,Burgaltay,7
+97,Flashspan,Technology,Anoek,230
+98,Miboo,Technology,Xinhua,744
+99,Edgepulse,Retail,Motrico,786
+100,Centidel,Technology,Khāsh,39
+101,Kanoodle,Retail,Presidente Médici,895
+102,Kwilith,Services,Aba,286
+103,Camido,Food,Foxrock,963
+104,Livefish,Retail,Kholmsk,974
+105,Centimia,Food,Bodega,938
+106,Minyx,Services,Marogong,320
+107,Babblestorm,Food,Plátanos,825
+108,Rhyloo,Food,Vårdö,158
+109,Thoughtworks,Services,Margen,785
+110,Abata,Food,Hisings Kärra,388
+111,Tazz,Technology,Mutengene,768
+112,Npath,Services,Whitegate,840
+113,Wikizz,Retail,Mirny,289
+114,Wikibox,Services,Lazaro Cardenas,226
+115,Twitternation,Services,Mantalongon,622
+116,Devshare,Retail,Södra Sandby,855
+117,Rhyloo,Food,Daireaux,776
+118,Thoughtstorm,Services,Olleros,704
+119,Skidoo,Retail,Parajara,354
+120,Twitternation,Food,Chunshui,733
+121,Thoughtmix,Services,Shanxia,358
+122,Brainbox,Retail,Nikulino,977
+123,Digitube,Retail,Maythalūn,462
+124,Wikizz,Services,Şuwayr,14
+125,Dynabox,Retail,Lyeskawka,933
+126,Twiyo,Retail,Staryy Oskol,865
+127,Avamba,Retail,Severnyy,847
+128,Meevee,Food,Saint-Étienne,268
+129,Eayo,Technology,Ban Talat Bueng,80
+130,Tagpad,Food,Sydney,600
+131,Meembee,Services,Malšice,329
+132,Eayo,Retail,Capilla del Monte,908
+133,Realbridge,Retail,Chambéry,34
+134,Mymm,Food,Kissidougou,876
+135,Zoonder,Technology,Palpalá,899
+136,Skaboo,Technology,Jūrmala,318
+137,Mynte,Food,Atbasar,239
+138,Riffpath,Retail,Valencia,746
+139,Demizz,Retail,Ubaté,657
+140,Photolist,Food,Vitória,84
+141,Aimbu,Technology,Jahāniān Shāh,860
+142,Edgeclub,Services,Lete,674
+143,Aivee,Services,Kokkónion,745
+144,Linkbuzz,Food,Kombësi,127
+145,Kimia,Technology,Carolina,743
+146,Zoomdog,Technology,Mlandizi,51
+147,Rooxo,Food,Jiuzhai,73
+148,Fiveclub,Services,Surat Thani,780
+149,Dynabox,Food,Maragogipe,405
+150,Linkbridge,Food,Kerbuyan,609
+151,Oozz,Technology,Mingzhong,607
+152,Fanoodle,Retail,Watari,191
+153,Jabbercube,Retail,Laocheng,123
+154,Tagfeed,Retail,Bergen,910
+155,Tavu,Technology,Kokkinóchoma,491
+156,Skyble,Technology,Yunxi,118
+157,Browsedrive,Retail,Óbidos,71
+158,Brainbox,Services,Zhubei,837
+159,Livefish,Technology,Sao Hai,2
+160,Fadeo,Retail,Nice,662
+161,Miboo,Food,Baykit,166
+162,Cogidoo,Services,Kaczory,242
+163,Omba,Retail,Duy Xuyên,690
+164,Teklist,Retail,Belas,961
+165,Fivechat,Food,Togu,595
+166,Photobug,Retail,Ambunti,456
+167,Skinte,Food,Balucuc,316
+168,Feedfish,Services,Lupon,515
+169,Twitterlist,Services,Kampungraja,408
+170,Kwinu,Retail,Karangtengah,64
+171,Kimia,Services,Sumurgeneng,12
+172,Lazzy,Retail,Gusinoozyorsk,129
+173,Dabshots,Services,Cuauhtemoc,938
+174,Kimia,Technology,Capilla del Monte,689
+175,Shuffledrive,Retail,Mandepa Barat,829
+176,Photobean,Retail,Presidente Epitácio,227
+177,Livetube,Services,Chillán,663
+178,Avaveo,Food,Sukorejo,64
+179,Skimia,Food,Sabang,531
+180,Devbug,Food,Jiushe,391
+181,Meetz,Retail,Pantijan No 2,413
+182,Livefish,Food,Wasior,423
+183,Jamia,Services,Dopang,467
+184,Brainbox,Food,Beopwon,432
+185,Flipbug,Retail,Xingfu,729
+186,Npath,Services,Lebahseri,592
+187,Dynava,Technology,Xinji,26
+188,Flashdog,Technology,Jiangdianzi,748
+189,Edgewire,Retail,Azilal,728
+190,Babblestorm,Food,Gayam,662
+191,Vipe,Technology,Buđanovci,126
+192,Yakidoo,Technology,Daxi,933
+193,Buzzbean,Food,Poja,539
+194,Livetube,Food,Hekou,556
+195,Babbleset,Food,Lesnoye,487
+196,Aivee,Services,Beaufort,714
+197,Dabvine,Services,Beiyang,876
+198,Thoughtworks,Services,Alabat,974
+199,Ntag,Retail,Balazar,391
+200,Twitternation,Services,Lohong,170

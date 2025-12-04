@@ -1,0 +1,61 @@
+﻿CaseID,CustomerID,CaseType,Status,InvestigatorID
+1,724,Fraud,Open,51
+2,723,Terrorism Financing,Open,85
+3,891,Money Laundering,Under Investigation,180
+4,14,Money Laundering,Open,139
+5,823,Money Laundering,Closed,132
+6,635,Terrorism Financing,Under Investigation,1
+7,725,Terrorism Financing,Under Investigation,153
+8,798,Terrorism Financing,Under Investigation,58
+9,30,Money Laundering,Under Investigation,16
+10,622,Terrorism Financing,Under Investigation,157
+11,353,Money Laundering,Under Investigation,82
+12,445,Terrorism Financing,Open,8
+13,463,Terrorism Financing,Closed,58
+14,701,Terrorism Financing,Open,27
+15,562,Terrorism Financing,Closed,63
+16,72,Terrorism Financing,Closed,146
+17,321,Terrorism Financing,Open,172
+18,71,Money Laundering,Under Investigation,24
+19,513,Fraud,Under Investigation,32
+20,609,Terrorism Financing,Under Investigation,42
+21,26,Terrorism Financing,Under Investigation,123
+22,292,Money Laundering,Closed,147
+23,705,Terrorism Financing,Closed,31
+24,43,Fraud,Under Investigation,172
+25,194,Fraud,Closed,172
+26,79,Terrorism Financing,Closed,40
+27,931,Terrorism Financing,Under Investigation,124
+28,837,Terrorism Financing,Open,91
+29,484,Money Laundering,Under Investigation,49
+30,247,Money Laundering,Closed,177
+31,698,Terrorism Financing,Open,37
+32,709,Terrorism Financing,Under Investigation,142
+33,592,Fraud,Closed,163
+34,820,Terrorism Financing,Open,40
+35,444,Money Laundering,Under Investigation,17
+36,115,Fraud,Under Investigation,8
+37,556,Fraud,Closed,14
+38,315,Money Laundering,Open,143
+39,332,Money Laundering,Open,86
+40,229,Money Laundering,Closed,51
+41,430,Money Laundering,Open,182
+42,57,Fraud,Closed,73
+43,33,Money Laundering,Under Investigation,79
+44,789,Money Laundering,Open,181
+45,775,Money Laundering,Open,120
+46,361,Money Laundering,Closed,187
+47,175,Fraud,Under Investigation,119
+48,289,Terrorism Financing,Open,119
+49,48,Fraud,Closed,200
+50,872,Money Laundering,Closed,196
+51,460,Terrorism Financing,Closed,158
+52,830,Money Laundering,Open,20
+53,261,Terrorism Financing,Open,197
+54,218,Money Laundering,Open,108
+55,49,Money Laundering,Closed,155
+56,97,Terrorism Financing,Under Investigation,112
+57,898,Fraud,Closed,91
+58,274,Fraud,Under Investigation,141
+59,932,Fraud,Closed,142
+60,349,Terrorism Financing,Closed,151
